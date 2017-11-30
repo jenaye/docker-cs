@@ -1,6 +1,6 @@
-# docker-cheat-sheet
+# Docker cheat sheet
 
-list your containers
+List your containers
 
 ```
 docker container ls  # running
