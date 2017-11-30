@@ -29,7 +29,7 @@ docker container inspect --format '{{ json .State }}' ID_CONTAINER | jq    # get
 # Log containers
 
 ```
-docker container logs -F ID_CONTAINER   # get log from container -f ; flag "-f" mean tail -f (real time)
+docker container logs -F ID_CONTAINER   # get log from container; flag "-F" mean tail -f (real time)
 ```
 
 
