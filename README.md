@@ -26,6 +26,8 @@ docker container inspect --format '{{ json .State }}' ID_CONTAINER | jq    # get
 
 ```
 
+> Take care about Networking, some times its " NetworkSetting " Otherwise its " Network"
+
 # Log containers
 
 ```
